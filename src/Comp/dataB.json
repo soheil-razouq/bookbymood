@@ -1,0 +1,89 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 1202,
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "43g9DgAAQBAJ",
+            "etag": "xJLuE8JmGRQ",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/43g9DgAAQBAJ",
+            "volumeInfo": {
+                "title": "Jamais plus",
+                "authors": [
+                    "Colleen Hoover",
+                    "Madsen"
+                ],
+                "publisher": "Hugo Roman",
+                "publishedDate": "2017-05-11",
+                "description": "Ce sont ceux que nous aimons qui peuvent nous faire le plus de mal. Lily Blossom Bloom n'a pas eu une enfance très facile, 
+                entre un père violent et une mère qu'elle trouve soumise, mais elle a su s'en sortir dans la vie et est à l'aube de réaliser le rêve de sa vie : ouvrir, 
+                à Boston, une boutique de fleurs. Elle vient de rencontrer un neuro-chirurgien, Lyle, charmant, ambitieux, visiblement aussi attiré par elle qu'elle l'est par lui. 
+                Le chemin de Lily semble tout tracé. Elle hésite pourtant encore un peu : il n'est pas facile pour elle de se lancer dans une histoire sentimentale, 
+                avec des parents comme les siens et Atlas,
+                 ce jeune homme qu'elle avait rencontré adolescente, lui a laissé des souvenirs à la fois merveilleux et douloureux. 
+                 Est-ce que le chemin de Lily est finalement aussi simple ? Les choix les plus évidents sont-ils les meilleurs ? 
+                 Le chemin d'une jeune femme pour se trouver et pour rompre le cycle de la violence. Est-ce que l'amour peut tout excuser ?",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9782755630756"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "2755630752"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 289,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 5,
+                "ratingsCount": 2,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.1.2.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=43g9DgAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=43g9DgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "fr",
+                "previewLink": "http://books.google.com/books?id=43g9DgAAQBAJ&dq=it+starts+with+us&hl=&cd=1&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=43g9DgAAQBAJ&dq=it+starts+with+us&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Jamais_plus.html?hl=&id=43g9DgAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "MA",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "MA",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=43g9DgAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Ce sont ceux que nous aimons qui peuvent nous faire le plus de mal."
+            }
+        }
+    ]
+}

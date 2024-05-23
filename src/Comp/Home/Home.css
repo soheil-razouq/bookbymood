@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #1a1a2e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  .mood-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .mood-button {
+    background-color: #e94560;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+  }
+  
+  .mood-button:hover {
+    background-color: #1e0208;
+  }
+  
+  .mood-button span {
+    margin-right: 10px;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+  
+  .link-to-books-list{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+  }
