@@ -1,11 +1,11 @@
 {
     "kind": "books#volumes",
-    "totalItems": 1202,
+    "totalItems": 1177,
     "items": [
         {
             "kind": "books#volume",
             "id": "43g9DgAAQBAJ",
-            "etag": "xJLuE8JmGRQ",
+            "etag": "CcjLtrAWUos",
             "selfLink": "https://www.googleapis.com/books/v1/volumes/43g9DgAAQBAJ",
             "volumeInfo": {
                 "title": "Jamais plus",
@@ -15,14 +15,7 @@
                 ],
                 "publisher": "Hugo Roman",
                 "publishedDate": "2017-05-11",
-                "description": "Ce sont ceux que nous aimons qui peuvent nous faire le plus de mal. Lily Blossom Bloom n'a pas eu une enfance très facile, 
-                entre un père violent et une mère qu'elle trouve soumise, mais elle a su s'en sortir dans la vie et est à l'aube de réaliser le rêve de sa vie : ouvrir, 
-                à Boston, une boutique de fleurs. Elle vient de rencontrer un neuro-chirurgien, Lyle, charmant, ambitieux, visiblement aussi attiré par elle qu'elle l'est par lui. 
-                Le chemin de Lily semble tout tracé. Elle hésite pourtant encore un peu : il n'est pas facile pour elle de se lancer dans une histoire sentimentale, 
-                avec des parents comme les siens et Atlas,
-                 ce jeune homme qu'elle avait rencontré adolescente, lui a laissé des souvenirs à la fois merveilleux et douloureux. 
-                 Est-ce que le chemin de Lily est finalement aussi simple ? Les choix les plus évidents sont-ils les meilleurs ? 
-                 Le chemin d'une jeune femme pour se trouver et pour rompre le cycle de la violence. Est-ce que l'amour peut tout excuser ?",
+                "description": "Ce sont ceux que nous aimons qui peuvent nous faire le plus de mal. Lily Blossom Bloom n'a pas eu une enfance très facile, entre un père violent et une mère qu'elle trouve soumise, mais elle a su s'en sortir dans la vie et est à l'aube de réaliser le rêve de sa vie : ouvrir, à Boston, une boutique de fleurs. Elle vient de rencontrer un neuro-chirurgien, Lyle, charmant, ambitieux, visiblement aussi attiré par elle qu'elle l'est par lui. Le chemin de Lily semble tout tracé. Elle hésite pourtant encore un peu : il n'est pas facile pour elle de se lancer dans une histoire sentimentale, avec des parents comme les siens et Atlas, ce jeune homme qu'elle avait rencontré adolescente, lui a laissé des souvenirs à la fois merveilleux et douloureux. Est-ce que le chemin de Lily est finalement aussi simple ? Les choix les plus évidents sont-ils les meilleurs ? Le chemin d'une jeune femme pour se trouver et pour rompre le cycle de la violence. Est-ce que l'amour peut tout excuser ?",
                 "industryIdentifiers": [
                     {
                         "type": "ISBN_13",
@@ -83,6 +76,213 @@
             },
             "searchInfo": {
                 "textSnippet": "Ce sont ceux que nous aimons qui peuvent nous faire le plus de mal."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "Xfx1DwAAQBAJ",
+            "etag": "Kc0NvbheZ6I",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/Xfx1DwAAQBAJ",
+            "volumeInfo": {
+                "title": "Un coupable si parfait",
+                "authors": [
+                    "Kate Moretti"
+                ],
+                "publisher": "City Edition",
+                "publishedDate": "2018-11-07",
+                "description": "Aux yeux de tous, Nate Winters est un homme parfait, excellent professeur de mathématiques investi dans son travail et entraîneur apprécié de l’équipe de base-ball. Mais une rumeur est sur le point de faire voler sa vie en éclats. Nate aurait été aperçu devant un hôtel en train d’enlacer la jeune Lucia, l’une de ses élèves. Certains disent même les avoir vus s’embrasser... La rumeur devient virale, au point que les habitants de cette petite ville sans histoire crient au scandale. Quand Lucia disparaît mystérieusement, Nate est pris au piège. A-t-il enlevé la jeune femme ? L’a-t-il tuée ? Pour tout le monde, il est le coupable idéal. Seule Alecia, la femme de Nate, est déterminée à prouver son innocence. Mais connaît-elle vraiment son mari... et ses secrets ?",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9782824630861"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "2824630868"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 432,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "2.3.3.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=Xfx1DwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=Xfx1DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "fr",
+                "previewLink": "http://books.google.com/books?id=Xfx1DwAAQBAJ&dq=it+starts+with+us&hl=&cd=2&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=Xfx1DwAAQBAJ&dq=it+starts+with+us&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Un_coupable_si_parfait.html?hl=&id=Xfx1DwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "MA",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "MA",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=Xfx1DwAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Aux yeux de tous, Nate Winters est un homme parfait, excellent professeur de mathématiques investi dans son travail et entraîneur apprécié de l’équipe de base-ball."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "_SWmEAAAQBAJ",
+            "etag": "P03I6P9qgvo",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/_SWmEAAAQBAJ",
+            "volumeInfo": {
+                "title": "Maybe now",
+                "authors": [
+                    "Colleen Hoover"
+                ],
+                "publisher": "Hugo Roman",
+                "publishedDate": "2020-06-04",
+                "description": "L'amitié est aussi précieuse que l'amour Ridge et Sydney ont trouvé l'amour, malgré tous les obstacles qui s'étaient dressés entre eux, dans Maybe Someday. Leur histoire, ainsi que celle de tous leurs amis, se poursuit maintenant. Ridge et Sydney sont profondément amoureux mais il reste des questions non résolues. Comment vivre tranquillement alors que Maggie, l'ex de Ridge est maintenant seule et doit faire face à ses graves problèmes de santé sans aucune aide ? Si Sydney s'en veut toujours d'avoir été la cause de la séparation de Ridge et Maggie, elle a du mal à accepter ce qui les lie encore. Quant à Maggie, elle a toujours été consciente que sa pathologie réduirait son espérance de vie mais doit-elle se refuser toute chance de bonheur ? Ridge et Sydney et Maggie continuent leur vie, ensemble ou de leur côté, au milieu de leurs amis, toujours aussi drôles et déjantés et dans une atmosphère musicale, celle du groupe de Ridge et son frère.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9782755650136"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "2755650133"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 298,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.1.2.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=_SWmEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=_SWmEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "fr",
+                "previewLink": "http://books.google.com/books?id=_SWmEAAAQBAJ&dq=it+starts+with+us&hl=&cd=3&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=_SWmEAAAQBAJ&dq=it+starts+with+us&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Maybe_now.html?hl=&id=_SWmEAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "MA",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "MA",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=_SWmEAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "L&#39;amitié est aussi précieuse que l&#39;amour Ridge et Sydney ont trouvé l&#39;amour, malgré tous les obstacles qui s&#39;étaient dressés entre eux, dans Maybe Someday."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "j-4VjwEACAAJ",
+            "etag": "T7+mQpQnaHw",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/j-4VjwEACAAJ",
+            "volumeInfo": {
+                "title": "Commencer par pourquoi",
+                "authors": [
+                    "Simon Sinek"
+                ],
+                "publishedDate": "2015-11-12",
+                "description": "Simon Sinek est le leader d'un mouvement qui vise à bâtir un monde dans lequel la majorité des gens sont motivés par le travail qu'ils font. Toute personne ou organisation est en mesure d'expliquer ce qu'elle fait : certaines peuvent expliquer en quoi elles sont différentes des autres, mais très rares sont celles qui parviennent à formuler clairement pourquoi. Le \"Pourquoi\" n'a rien à voir avec l'argent et les profits... Le \"Pourquoi\", c'est la raison qui nous inspire et inspire également les gens autour de nous. De Martin Luther King à Steve Jobs, en passant par les frères Wright, \"Commencer par pourquoi\" démontre que les leaders qui savent inspirer les gens pensent, agissent et communiquent tous de la même façon, une façon diamétralement opposée à celle de tous les autres. Riche d'un vaste éventail d'histoires vécues, ce livre procure une ossature permettant de bâtir des entreprises, de diriger des mouvements et d'inspirer des gens, tout cela à partir de Pourquoi.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "2924412684"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9782924412688"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 230,
+                "printType": "BOOK",
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "language": "fr",
+                "previewLink": "http://books.google.com/books?id=j-4VjwEACAAJ&dq=it+starts+with+us&hl=&cd=4&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=j-4VjwEACAAJ&dq=it+starts+with+us&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Commencer_par_pourquoi.html?hl=&id=j-4VjwEACAAJ"
+            },
+            "saleInfo": {
+                "country": "MA",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "MA",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=j-4VjwEACAAJ&hl=&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "&quot;Simon Sinek est le leader d&#39;un mouvement qui vise à bâtir un monde dans lequel la majorité des gens sont inspirés par le travail qu&#39;ils font."
             }
         }
     ]

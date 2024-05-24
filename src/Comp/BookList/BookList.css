@@ -1,81 +1,52 @@
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .navbar {
-    display: flex;
-    width: 150%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #1c1517;
-    border-bottom: 1px solid rgb(83, 83, 83);
-  }
-  
-  /* .logo a {
+  display: flex;
+  width: 150%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1c1517;
+  border-bottom: 1px solid rgb(83, 83, 83);
+}
+
+/* .logo a {
     text-decoration: none;
     color: #000;
     font-size: 24px;
     font-weight: bold;
   } */
-  
-  .current-feeling h4 {
-    margin: 0;
-    font-size: 18px;
-}
-  
-  .change-mood button {
-    padding: 10px 15px;
-    background-color: #7f2828;
-    color: white;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-  }
-  
-  .change-mood button:hover {
-    background-color: #572d0f;
-  }
 
-  
-  .book {
-    display: inline-block;
-    width: 230px;
-    height: 390px;
-    border: 2px solid black;
-    background-color: rgb(82, 45, 9);
-    margin: 25px;
-    padding: 10px 10px 0 10px;
-    vertical-align: top;
-    transition: height 1s;
-  }
-  
-  .cover {
-    border: 2px solid gray;
-    height: 80%;
-    overflow: hidden;
-  }
-  
-  .cover img {
-    width: 100%;
-  }
-  
-  .book p {
-    margin-top: 12px;
-    font-size: 20px;
-  }
-  
-  .book .author {
-    font-size: 15px;
-  }
-  @media (max-width: 941px) {
-    .book {
-      margin: 49px;
-    }
-  }
-  @media (max-width: 730px) {
-    .book {
-      display: block;
-      margin: 0 auto;
-      margin-top: 50px;
-    }
-  }
+.current-feeling h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.change-mood button {
+  padding: 10px 15px;
+  background-color: #7f2828;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.change-mood button:hover {
+  background-color: #572d0f;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.load-more-container {
+  width: 100%;
+  display: block;
+  justify-content: center;
+  margin-top: 20px;
+}
