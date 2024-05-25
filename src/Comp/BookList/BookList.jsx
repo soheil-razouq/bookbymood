@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
 import { useNavigate, useParams } from 'react-router-dom';
-import Book from './Book';
 import "./BookList.css";
 
 
@@ -23,17 +22,10 @@ function BookList() {
       const response = await axios.get(`https://www.googleapis.com/books/v1/volumes?q=${Query}&key=${ApiKey}&maxResults=12`);
       const data = response.data;
       setBooks(data.items);
-      console.log(Books)
     } catch (error) {
       console.error('Error fetching books:', error);
     }
   };
-
-  // const loadMoreBooks = () => {
-  //   setDisplayedBooks(prevDisplayedBooks => prevDisplayedBooks + 4);
-  // };
-
-
 
   const handleBack = () => {
     if (currentIndex > 0) {
@@ -42,30 +34,16 @@ function BookList() {
     }
   };
 
-  const handleHide = (index) => {
-    const updatedBooks = Books.filter((_, bookIndex) => bookIndex !== index);
-    setBooks(updatedBooks);
-    console.log('hide here')
-  };
-
   const handleNext = () => {
     if (currentIndex + 4 < Books.length) {
       setCurrentIndex(currentIndex + 1);
       setDisplayedBooks(displayedBooks + 1);
-      console.log('next here')
     }
   };
 
   useEffect(() => {
     GetAllBooks();
   }, [Query, ApiKey]);
-
-  useEffect(() => {
-    if (Books.length > 0) {
-      console.log(Books);
-      console.log("img-url : ", Books[0].volumeInfo.imageLinks.smallThumbnail);
-    }
-  }, [Books]);
 
   return (
     <>
@@ -84,7 +62,7 @@ function BookList() {
       </nav>
 
       <div className="product-container">
-        {Books.slice(currentIndex, currentIndex + displayedBooks).map((bookiteme, index) => (
+        {Books.slice(currentIndex, displayedBooks).map((bookiteme, index) => (
           <div className="book-card" key={index}>
             <div className="book-header">
               <img src={bookiteme.volumeInfo.imageLinks.smallThumbnail} alt={bookiteme.volumeInfo.title} />
@@ -107,17 +85,11 @@ function BookList() {
             </div>
             <div className="book-actions">
               <button className="btn" onClick={() => handleBack()}>Back</button>
-              <button className="btn" onClick={() => handleHide()}>Hide</button>
               <button className="btn" onClick={() => handleNext()}>Next</button>
             </div>
           </div>
         ))
         }
-        {/* {displayedBooks < Books.length && (
-          <div className="load-more-container">
-            <button onClick={loadMoreBooks}>Load More</button>
-          </div>
-        )} */}
       </div>
     </>
   )
