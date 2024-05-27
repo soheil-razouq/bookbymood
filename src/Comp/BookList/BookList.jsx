@@ -19,7 +19,7 @@ function BookList() {
 
   const GetAllBooks = async () => {
     try {
-      const response = await axios.get(`https://www.googleapis.com/books/v1/volumes?q=${Query}&key=${ApiKey}&maxResults=12`);
+      const response = await axios.get(`https://www.googleapis.com/books/v1/volumes?q=${Query}&key=${ApiKey}&maxResults=20`);
       const data = response.data;
       setBooks(data.items);
     } catch (error) {
@@ -43,6 +43,7 @@ function BookList() {
 
   useEffect(() => {
     GetAllBooks();
+    console.log(Books)
   }, [Query, ApiKey]);
 
   return (
@@ -62,7 +63,7 @@ function BookList() {
       </nav>
 
       <div className="product-container">
-        {Books.slice(currentIndex, displayedBooks).map((bookiteme, index) => (
+        {Books.length > 0 ? Books.slice(currentIndex, displayedBooks).map((bookiteme, index) => (
           <div className="book-card" key={index}>
             <div className="book-header">
               <img src={bookiteme.volumeInfo.imageLinks.smallThumbnail} alt={bookiteme.volumeInfo.title} />
@@ -76,12 +77,12 @@ function BookList() {
                   {bookiteme.volumeInfo.categories && bookiteme.volumeInfo.categories.map((genre, index) => (
                     <span key={index} className="genre">{genre}</span>
                   ))}
-                  <span className="pages">{bookiteme.volumeInfo.pageCount} pages</span>
+                  <span className="pages">{bookiteme.volumeInfo.pageCount} Pages</span>
                 </div>
               </div>
             </div>
             <div className="book-description">
-              <p>Book description goes here. This is a brief summary of the book's plot and key points...</p>
+              <p>{bookiteme.volumeInfo.description}</p>
             </div>
             <div className="book-actions">
               <button className="btn" onClick={() => handleBack()}>Back</button>
@@ -89,6 +90,7 @@ function BookList() {
             </div>
           </div>
         ))
+          : <h1>No Book Found</h1>
         }
       </div>
     </>
