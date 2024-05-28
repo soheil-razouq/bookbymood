@@ -45,7 +45,7 @@ function Home() {
       </div>
 
       <div className="footer">
-        <p>Made with ❤️ by Soheil</p>
+        <p>Made by Soheil ❤️</p>
       </div>
     </div>
   );

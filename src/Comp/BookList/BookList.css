@@ -2,6 +2,12 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.navsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .navbar {
   display: flex;
   width: 150%;
@@ -10,6 +16,15 @@ body {
   padding: 10px 20px;
   background-color: #1c1517;
   border-bottom: 1px solid rgb(83, 83, 83);
+}
+
+#logo{
+  height: 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;  
 }
 
 .current-feeling h4 {
@@ -88,7 +103,8 @@ body {
   margin-right: 15px;
 }
 
-.book-header, img{
+.book-header,
+img {
   padding-right: 10px;
 }
 
@@ -132,6 +148,26 @@ body {
   line-height: 1.5;
   margin-bottom: 15px;
   text-align: justify;
+}
+
+.book-description p {
+  display: inline;
+}
+
+.book-description button {
+  display: block;
+  margin-top: 10px;
+  background-color: #551b9ca1;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  float: right;
+  border-radius: 10pt;
+}
+
+.book-description button:hover {
+  background-color: #592e32;
 }
 
 .book-actions {
@@ -210,9 +246,12 @@ body {
 /* For tablets and smaller screens */
 @media (max-width: 1024px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: x-small;
   }
 
   .current-feeling h4 {
@@ -233,6 +272,11 @@ body {
 @media (max-width: 768px) {
   .navbar {
     padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: x-small;
   }
 
   .current-feeling h4 {
@@ -254,6 +298,11 @@ body {
 @media (max-width: 480px) {
   .navbar {
     padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: x-small;
   }
 
   .current-feeling h4 {

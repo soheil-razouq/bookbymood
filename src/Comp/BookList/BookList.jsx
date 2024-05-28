@@ -8,6 +8,9 @@ function BookList() {
   const [Books, setBooks] = useState([]);
   const [displayedBooks, setDisplayedBooks] = useState(1);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isExpanded, setIsExpanded] = useState(false);
+  const MAX_LENGTH = 300;
+
   const navigate = useNavigate();
   const { label } = useParams();
   const Query = label;
@@ -16,6 +19,8 @@ function BookList() {
   const BackToHome = (path) => {
     navigate(path);
   }
+
+  const toggleExpand = () => setIsExpanded(!isExpanded);
 
   const GetAllBooks = async () => {
     try {
@@ -48,19 +53,21 @@ function BookList() {
 
   return (
     <>
-      <nav className="navbar">
-        <div className="logo">
-          Logo
-        </div>
-        <div className="current-feeling">
-          <h4>Feeling now: {label}</h4>
-        </div>
-        <div className="change-mood">
-          <button onClick={() => BackToHome('/')}>
-            Change Mood
-          </button>
-        </div>
-      </nav>
+      <div className="navsection">
+        <nav className="navbar">
+          <div className="logo-section">
+            <img id='logo' src="../logo.png" alt="book logo" />
+          </div>
+          <div className="current-feeling">
+            <h5>Feeling now: {label}</h5>
+          </div>
+          <div className="change-mood">
+            <button onClick={() => BackToHome('/')}>
+              Change Mood
+            </button>
+          </div>
+        </nav>
+      </div>
 
       <div className="product-container">
         {Books.length > 0 ? Books.slice(currentIndex, displayedBooks).map((bookiteme, index) => (
@@ -82,7 +89,12 @@ function BookList() {
               </div>
             </div>
             <div className="book-description">
-              <p>{bookiteme.volumeInfo.description}</p>
+              <p>
+                {isExpanded ? bookiteme.volumeInfo.description : `${bookiteme.volumeInfo.description.substring(0, MAX_LENGTH)}...`}
+                <button onClick={toggleExpand}>
+                  {isExpanded ? 'Show Less' : 'Show More'}
+                </button>
+              </p>
             </div>
             <div className="book-actions">
               <button className="btn" onClick={() => handleBack()}>Back</button>
@@ -90,8 +102,14 @@ function BookList() {
             </div>
           </div>
         ))
-          : <h1>No Book Found</h1>
+          :
+          <div className="nobook">
+            <h1>No Book Found</h1>
+          </div>
         }
+      </div>
+      < div className="footer">
+        <p>Made by Soheil ❤️</p>
       </div>
     </>
   )
